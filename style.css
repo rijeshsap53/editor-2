@@ -64,26 +64,114 @@ header #download{
     left: 0;
 }
 
+/* main box */
+
 .box{
     width: 700px;
     height: 566px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: inline-block;
     position: absolute;
     top: 55px;
+    background-color: #e7e7e7;
 }
+
+
 
 .upload_p{
     width: 500px ;
     height: 300px;
-    border: 2px solid red;
+    border: 2px dashed #d2d3d4;
+    background-color: white;
     margin: auto;
     margin-top: 120px;
     background-size: cover;
+    border-radius: 3px;
+}
+
+.inf{
+    margin: auto;
+    width: 300px;
+    height: 200px;
+}
+
+.inf .fa-plus{
+   font-size: 50px;
+   margin-left: 120px;
+   margin-top: 90px;
+   color: #d2d3d4;
+   cursor: pointer;
+
+}
+
+.inf p{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.inf .option{
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 150px;
+    height: 40px;
+    background-color: #2c7dfa;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
 #dialouge{
     display: none;
+}
+
+
+
+/* upload again */
+
+.again{
+    width: 167px;
+    height: 566px;
+    border: 2px solid red;
+    position: absolute;
+    right: 0;
+    top: 55px;
+    /* display: none; */
+    background-color: white;
+    
+}
+
+#aga_dialouge{
+    display: none;
+
+}
+
+.close{
+    z-index: 1000000000000;
+    background-color: white;
+    position: absolute;
+    top: 320px;
+    right: 150px;
+    height: 70px;
+    width: 30px;
+    border: none;
+    border-radius: 30px;
+    
+    
+}
+
+.close .fa-greater-than{
+    color: #8b8b8b;
+}
+
+/* new class for close class */
+
+/* 
+  
+
 }
 
 
